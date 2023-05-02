@@ -28,9 +28,9 @@ if you encounter the error:
 
 The solve for this is to use python3 instead of python when executing the command in the CLI 
  
-Instead of 
-python test1.py FB:12,BABA:5000
-do 
+Instead of \
+python test1.py FB:12,BABA:5000 \
+do \
 python3 test1.py FB:12,BABA:5000
 
 This is because I used F-string. python 2 doesnt support that. Using Python3 forces the use of python v3+
