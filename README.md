@@ -1,5 +1,7 @@
 # InterviewTest
 
+This was completed in Python. You will need Python v3.8.+ to run.
+
 For the first test use test1.py.
 - In command line navigate to the folder holding test1.py and input test cases as follows 
 - python test1.py FB:12,PLTR:5000 
