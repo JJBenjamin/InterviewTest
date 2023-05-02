@@ -19,3 +19,18 @@ Custom test cases may also be used.
 for Test 1 there are 5 tickers that can be used such as:
   BABA, PLTR, FB, TSLA, WISH
   These can be found in stocks.json
+  
+##TROUBLESHOOTING TIPS!
+
+if you encounter the error:
+ File "test1.py", line 25
+    print(f"Error: Stock with ticker {ticker} was not found")
+
+The solve for this is to use python3 instead of python when executing the command in the CLI 
+ 
+Instead of 
+python test1.py FB:12,BABA:5000
+do 
+python3 test1.py FB:12,BABA:5000
+
+This is because I used F-string. python 2 doesnt support that. Using Python3 forces the use of python v3+
