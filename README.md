@@ -20,7 +20,7 @@ for Test 1 there are 5 tickers that can be used such as:
   BABA, PLTR, FB, TSLA, WISH
   These can be found in stocks.json
   
-##TROUBLESHOOTING TIPS!
+#TROUBLESHOOTING TIPS!
 
 if you encounter the error:
  File "test1.py", line 25
