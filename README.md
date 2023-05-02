@@ -1,6 +1,6 @@
 # InterviewTest
 
-This was completed in Python. You will need Python v3.8.+ to run.
+This was completed in Python. You will need Python v3.8.+ or newer to run.
 
 To begin be sure to extract or clone all files into the same folder.
 
